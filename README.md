@@ -1,1 +1,1 @@
-# dumb-monorepo-skelleton
+# dumb-monorepo-skeleton
