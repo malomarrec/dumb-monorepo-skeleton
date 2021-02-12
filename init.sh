@@ -7,5 +7,9 @@ do
 	touch $PROJECT/src/server/app.js
 done
 
-
+mkdir infra
+mkdir infra/terraform infra/terraform/modules infra/monitoring  infra/services
+touch infra/monitoring/datadog-agent.yml
+touch infra/services/proxy-env-vars-config.yaml
+touch infra/terraform/modules/ec2.yml infra/terraform/modules/vpn.yml infra/terraform/modules/logging.yml 
 
