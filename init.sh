@@ -5,6 +5,7 @@ do
 	touch $PROJECT/src/client/components/ExampleComponent.js
 	touch $PROJECT/src/client/index.js
 	touch $PROJECT/src/server/app.js
+	touch $PROJECT/package.json
 done
 
 mkdir infra
